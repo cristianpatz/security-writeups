@@ -6,7 +6,7 @@ Collection of security write-ups from hands-on labs and practical challenges.
 
 ## 📂 Structure
 
-Write-ups are organized by topic and platform as the repository grows.
+Write-ups are organized by platform and topic as the repository grows.
 
 ---
 
