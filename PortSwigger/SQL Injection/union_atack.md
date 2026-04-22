@@ -1,2 +1,1 @@
-## Uploading a new file
-
+## Uploading a new file.
