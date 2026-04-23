@@ -22,11 +22,9 @@ Write-ups are organized by platform and topic as the repository grows.
 
 Each write-up focuses on:
 
-- 🔍 Analysis  
-- 💡 Hypothesis  
-- 🧪 Testing  
-- ⚙️ Exploitation  
-- 🧠 Understanding why it works  
+- 🔍 Analysis
+- ⚙️ Exploitation
+- 🧠 Impact 
 
 ---
 
