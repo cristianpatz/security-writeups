@@ -1,5 +1,13 @@
+# File path traversal, simple case
+Difficulty : Easy
+Link: https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/path-traversal-apprentice/file-path-traversal/lab-simple
+## Summary
+
+- [Introduction](#introduction)
+- [Exploitation](#exploitation)
+- [Impact](#impact)
+
 ## Introduction
-01_Lab: File path traversal, simple case
 
 This lab demonstrates a **path traversal** vulnerability in the product image display functionality, allowing arbitrary file access on the server. The exploitation is straightforward and consists of manipulating the image-loading parameter until it reaches the `/etc/passwd` file.
 
