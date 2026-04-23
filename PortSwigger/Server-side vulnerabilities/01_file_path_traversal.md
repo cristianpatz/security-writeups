@@ -1,5 +1,6 @@
 # File path traversal, simple case
 Difficulty : Easy
+
 Link: https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/path-traversal-apprentice/file-path-traversal/lab-simple
 ## Summary
 
