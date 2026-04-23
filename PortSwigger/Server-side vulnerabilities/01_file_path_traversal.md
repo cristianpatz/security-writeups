@@ -22,3 +22,7 @@ This change caused the server to return the contents of `/etc/passwd`, confirmin
 After the parameter was changed, the application no longer rendered the image correctly, since the response contained text instead of a valid image file.
 
 ![ImgNoContent](img/lab01_3.png)
+
+## Impact
+
+This vulnerability enables arbitrary file read on the server, which may expose sensitive data, internal configuration, and information useful for environment enumeration. In the case of `/etc/passwd`, the attacker gets a clear proof of exploitation and can also gather details about users and system structure.
