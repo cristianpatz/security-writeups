@@ -9,16 +9,16 @@ By analyzing the site requests in Burp Suite, it is possible to identify an endp
 
 `GET /image?filename=71.jpg`
 
-![Intercept](img/Lab1_1.png)
-
 With that in mind, the parameter was modified to attempt directory escape and reach a sensitive system file.
 
 `GET /image?filename=../../../etc/passwd`
 
+![Intercept](img/lab01_1.png)
+
 This change caused the server to return the contents of `/etc/passwd`, confirming the path traversal flaw and validating unauthorized access to the file.
 
-![ChangeParams](img/Lab1_2.png)
+![ChangeParams](img/lab01_2.png)
 
 After the parameter was changed, the application no longer rendered the image correctly, since the response contained text instead of a valid image file.
 
-![ImgNoContent](img/Lab1_3.png)
+![ImgNoContent](img/lab01_3.png)
