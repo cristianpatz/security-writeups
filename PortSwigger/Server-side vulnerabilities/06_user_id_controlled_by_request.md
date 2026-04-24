@@ -6,7 +6,7 @@ You can log in to your own account using the following credentials: `wiener:pet
 
 Difficulty: Easy
 
-Link: (colocar)
+Link: https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/access-control-apprentice/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure
 
 ## Summary
 
@@ -18,11 +18,13 @@ Link: (colocar)
 
 This lab explores IDOR where passwords are exposed in HTTP response bodies. The vulnerability allows credential recovery for other accounts by simply manipulating ID parameters. It's relevant because it shows how sensitive data in responses can compromise privileged accounts.
 
-![lab06_1](img/lab06_1.png)
 
 ## Exploitation
 
 First step is to log in with lab-provided credentials `(wiener:peter)` and immediately notice the pre-filled password field, masked visually.
+
+![lab06_1](img/lab06_1.png)
+
 Head to Burp Suite to analyze the API response and find my password in plain text within the HTTP response body (HTML content).
 
 ![lab06_2](img/lab06_2.png)

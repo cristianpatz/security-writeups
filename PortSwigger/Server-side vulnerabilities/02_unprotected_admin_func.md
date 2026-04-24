@@ -4,7 +4,7 @@ Solve the lab by deleting the user `carlos`.
 
 Difficulty: Easy
 
-Link: (colocar)
+Link: https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/access-control-apprentice/access-control/lab-unprotected-admin-functionality
 
 ## Summary
 
