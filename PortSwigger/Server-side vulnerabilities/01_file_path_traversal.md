@@ -1,4 +1,8 @@
-# File path traversal, simple case
+# Lab01: File path traversal, simple case
+
+This lab contains a path traversal vulnerability in the display of product images.
+To solve the lab, retrieve the contents of the `/etc/passwd` file.
+
 Difficulty : Easy
 
 Link: https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/path-traversal-apprentice/file-path-traversal/lab-simple
