@@ -31,8 +31,8 @@ Once the request is intercepted, it is sent to Burp Suite Intruder, where a brut
 In Intruder, the Sniper attack is initially used to test usernames and then passwords (but Cluster Bomb could also be used to test all combinations simultaneously).
 
 Intruder Configuration:
-- Position 1: §username§ (wordlist: username.txt)
-- Position 2: §password§ (wordlist: passwords.txt)
+- Position 1: username= §test§ (wordlist: username.txt)
+- Position 2: password= §123§ (wordlist: passwords.txt)
 
 ![lab07_1](img/lab07_1.png)
 
