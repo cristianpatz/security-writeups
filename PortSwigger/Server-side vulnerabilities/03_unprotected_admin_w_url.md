@@ -6,7 +6,7 @@ Solve the lab by accessing the admin panel, and using it to delete the user `ca
 
 Difficulty: Easy
 
-Link: (colocar)
+Link: https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/access-control-apprentice/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
 
 ## Summary
 

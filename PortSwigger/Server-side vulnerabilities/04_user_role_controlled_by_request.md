@@ -6,7 +6,7 @@ You can log in to your own account using the following credentials: `wiener:pet
 
 Difficulty: Easy
 
-Link: (colocar)
+Link: https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/access-control-apprentice/access-control/lab-user-role-controlled-by-request-parameter
 
 ## Summary
 
