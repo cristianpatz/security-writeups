@@ -36,7 +36,7 @@ I then performed another test by intentionally sending an incorrect current pass
 
 and continued allowing unlimited attempts without locking the account. This behavior confirmed that it was possible to automate password guessing attempts without triggering protection mechanisms.
 
-With that confirmed, I sent the request to Burp Suite Intruder and prepared a brute-force attack. I changed the username parameter to carlos, used a wordlist payload on the current-password parameter, and intentionally kept new-password-1 and new-password-2 different so the response would change once the correct password was identified.
+With that confirmed, I sent the request to Burp Suite Intruder and prepared a brute-force attack. I changed the username parameter to `carlos`, used a wordlist payload on the current-password parameter, and intentionally kept new-password-1 and new-password-2 different so the response would change once the correct password was identified.
 
 ![lab10_1](img/lab10_1.png)
 
