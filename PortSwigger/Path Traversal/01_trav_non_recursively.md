@@ -1,5 +1,11 @@
 # Lab01: File path traversal, traversal sequences stripped non-recursively
 
+This lab contains a path traversal vulnerability in the display of product images.
+
+The application blocks input containing path traversal sequences. It then performs a URL-decode of the input before using it.
+
+To solve the lab, retrieve the contents of the `/etc/passwd` file.
+
 Difficulty: Easy
 
 Link: https://portswigger.net/web-security/learning-paths/path-traversal/common-obstacles-to-exploiting-path-traversal-vulnerabilities/file-path-traversal/lab-sequences-stripped-non-recursively
