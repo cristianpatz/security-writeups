@@ -24,7 +24,7 @@ The goal of this lab was to exploit a Path Traversal vulnerability to access sen
 
 This lab was surprisingly easy. The exploitation started from a GET request used by the website to load images. The request was intercepted and sent to Repeater, where the file path was manually modified to test a possible Path Traversal vulnerability.
 
-In the parameter responsible for loading the image, the path to the /etc/passwd file was inserted, preceded by multiple `....//` sequences until the correct directory level in the server file system was reached.
+In the parameter responsible for loading the image, the path to the `/etc/passwd` file was inserted, preceded by multiple `....//` sequences until the correct directory level in the server file system was reached.
 
 `....//....//....//etc/passwd`
 
@@ -36,4 +36,4 @@ This behavior confirmed that the application did not properly sanitize user-cont
 
 ## Impact
 
-The Path Traversal vulnerability allows an attacker to access internal server files without authorization. In the context demonstrated in the lab, it was possible to read the /etc/passwd file, exposing sensitive operating system information. Depending on the environment configuration and available permissions, this type of issue can lead to the disclosure of credentials, configuration files, private keys, and other critical server data.
+The Path Traversal vulnerability allows an attacker to access internal server files without authorization. In the context demonstrated in the lab, it was possible to read the `/etc/passwd` file, exposing sensitive operating system information. Depending on the environment configuration and available permissions, this type of issue can lead to the disclosure of credentials, configuration files, private keys, and other critical server data.
