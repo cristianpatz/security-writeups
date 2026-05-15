@@ -46,7 +46,7 @@ After manually modifying the request to: `GET /files/exploit.php`
 
 it became possible to access the uploaded PHP file directly and retrieve the contents of `/home/carlos/secret`, successfully obtaining Carlos's credentials and completing the lab.
 
-![lab02_1](img/lab02_1.png)
+![lab01_2](img/lab01_2.png)
 
 ## Impact
 
