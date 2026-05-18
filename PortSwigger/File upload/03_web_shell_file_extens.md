@@ -24,7 +24,10 @@ This lab demonstrates an insecure file upload vulnerability caused by improper e
 
 First, the login was performed using the credentials provided by the lab. After accessing the application, an image upload field for changing the user avatar was identified.
 
-The first test consisted of uploading a PHP script saved in a file named `exploit.php`: `<?php echo file_get_contents('/home/carlos/secret'); ?>`
+The first test consisted of uploading a PHP script saved in a file named `exploit.php`:
+```php id="byeyzx"
+<?php echo file_get_contents('/home/carlos/secret'); ?>
+```
 
 When attempting to upload the `.php` file, the application returned an error stating that PHP files were not allowed and that only `.jpg` files could be uploaded. This behavior indicated that the upload functionality was performing extension validation.
 
