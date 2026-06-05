@@ -39,13 +39,13 @@ After the scan completed, I found the following open ports:
 80/tcp - Apache http (Ubuntu)
 ```
 
-[tproot_1](img/tproot_1.png)
+![tproot_1](img/tproot_1.png)
 
 Since port 80 was available, I decided to start with the web application to see if there were any interesting functionalities or hidden directories.
 
 To do that, I ran Gobuster looking for resources that could help during enumeration.
 
-[tproot_2](img/tproot_2.png)
+![tproot_2](img/tproot_2.png)
 
 The results only showed the main page (`index`) and the `server-status` directory, which returned a forbidden response. Since everything appeared to be standard Apache content and I couldn't find anything useful to move forward, I shifted my focus to the FTP service.
 
@@ -70,7 +70,7 @@ run
 
 A few seconds after running the module, I got a positive result. The backdoor was successfully triggered and a shell was opened with `root` privileges, giving full control over the machine and completing the lab.
 
-[tproot_3](img/tproot_3.png)
+![tproot_3](img/tproot_3.png)
 
 ## Impact
 
