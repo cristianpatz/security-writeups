@@ -38,7 +38,7 @@ After analyzing the scan results, the following open port was identified:
 21/tcp open ftp vsftpd 2.3.4
 ```
 
-[fh_1](img/firsthacking_1.png)
+[fh_1](/DockerLabs/img/firsthacking_1.png)
 
 Identifying the service version is important for checking known vulnerabilities. A brief search revealed that version `vsftpd 2.3.4` contains a widely known backdoor cataloged as:
 
