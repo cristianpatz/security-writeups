@@ -38,7 +38,7 @@ After analyzing the scan results, the following open port was identified:
 21/tcp open ftp vsftpd 2.3.4
 ```
 
-[fh_1](/DockerLabs/img/firsthacking_1.png)
+![fh_1](img/firsthacking_1.png)
 
 Identifying the service version is important for checking known vulnerabilities. A brief search revealed that version `vsftpd 2.3.4` contains a widely known backdoor cataloged as:
 
@@ -52,7 +52,7 @@ This vulnerability affects compromised versions of the service distributed durin
 
 With this information, Metasploit was used to exploit the vulnerability and attempt to gain access to the system.
 
-[fh_2](img/firsthacking_2.png)
+![fh_2](img/firsthacking_2.png)
 
 After selecting the appropriate module, the target was configured as follows:
 
@@ -63,7 +63,7 @@ run
 
 A few seconds after executing the module, the exploitation was completed successfully. The backdoor was triggered correctly, resulting in remote access to the system with root privileges, allowing full control of the machine and completing the lab.
 
-[fh_3](img/firsthacking_3.png)
+![fh_3](img/firsthacking_3.png)
 
 ## Impact
 
