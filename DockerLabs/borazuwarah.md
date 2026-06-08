@@ -71,6 +71,8 @@ After gaining access, I executed:
 sudo su
 ```
 
+![bora_5](img/borazuwarah_5.png)
+
 Since the user had sufficient privileges to escalate, I obtained root access and successfully completed the lab.
 
 ## Impact
