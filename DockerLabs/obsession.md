@@ -79,7 +79,7 @@ sudo -l
 The output showed that it was possible to execute `vim` with sudo. Knowing that, I ran `sudo vim` and, from inside the editor, used the following command:
 
 ```vim
-!:/bin/bash
+:!/bin/bash
 ```
 
 Since Vim was being executed with elevated privileges, the spawned shell inherited those permissions, giving me root access and completing the lab.
