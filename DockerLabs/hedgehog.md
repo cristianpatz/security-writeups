@@ -1,4 +1,4 @@
-# Hedgehog
+# HedgeHog
 
 Difficulty: Very easy
 
